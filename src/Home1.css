@@ -1,0 +1,59 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+
+body{
+    margin: 0;
+
+    background-image:url("KKK.avif");
+    height:100vh;
+    background-repeat:no-repeat;
+    width:100%;
+    background-size:cover;
+    background-position:center;
+    font-family: 'Gowun Batang', serif;
+    /* background-image: cover; */
+    
+}
+
+.nav-bar{
+    background-color:rgb(249, 202, 114) ;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 40px;
+   
+}
+
+.add-btn{
+padding: 4px 20px;
+margin-right: 20px;
+border-radius: 4px;
+background-color: #edebe6;
+border-style: none;
+color: black;
+font-family: 'Gowun Batang', serif;
+
+}
+
+.banner{
+    background-color: bisque;
+    background-image: url("CLASS 2.avif");
+    background-repeat: no-repeat;
+    height: 150px;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   box-shadow: 0 0 5px 0 black;
+   width: 90%;
+   margin: auto;
+   font-family: 'Gowun Batang', serif;
+   
+}
+.fontsize{
+    font-size: 30px;
+    font-weight:600;
+    text-shadow: 2px 2px rgb(249, 184, 114);
+}
