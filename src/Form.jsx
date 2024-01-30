@@ -14,7 +14,7 @@ function Form() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if(name){
-    await axios.post('http://localhost:5001/users', { name,email,phone, linkedin, github, image})
+    await axios.post('https://student-profile-ubwv.onrender.com', { name,email,phone, linkedin, github, image})
       .then(result => console.log(result))
       .catch(err => console.log(err))
     location.reload();
