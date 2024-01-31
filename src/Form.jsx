@@ -2,6 +2,7 @@ import React from 'react'
 import axios from 'axios'
 import { useEffect,useState } from 'react'
 import './Form.css';
+import { useNavigate } from 'react-router-dom';
 
 function Form() {
   const [name, setName] = useState('')
@@ -10,13 +11,19 @@ function Form() {
    const [image,setImage] = useState('');
    const [email,setEmail] = useState('');
    const [phone,setPhone] = useState('');
+   const navigate = useNavigate()
+
+  //  axios.defaults.baseURL='https://studentprofileshowcase.onrender.com';
+  //  axios.defaults.withCredentials =true;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     if(name){
-    await axios.post('https://studentprofileshowcase.onrender.com', { name,email,phone, linkedin, github, image})
+    await axios.post("https://studentprofileshowcase.onrender.com", { name,email,phone, linkedin, github, image})
       .then(result => console.log(result))
       .catch(err => console.log(err))
+  
+    navigate('/card' )
     location.reload();
     }
 
