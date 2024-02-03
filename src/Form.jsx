@@ -23,8 +23,7 @@ function Form() {
       .then(result => console.log(result))
       .catch(err => console.log(err))
   
-    navigate('/card' )
-    location.reload();
+    navigate('/card')
     }
 
   } 
