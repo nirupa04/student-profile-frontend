@@ -14,7 +14,7 @@ function Card() {
     // }]
     const [student, setStudent] = useState([])
     useEffect(() => {
-        axios.get("https://studentprofileshowcase.onrender.com")
+        axios.get("https://studentprofileshowcase.onrender.com/users")
             .then(student => setStudent(student.data))
             .catch(err => console.log(err))
     }, [])
