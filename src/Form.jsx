@@ -2,7 +2,7 @@ import React from 'react'
 import axios from 'axios'
 import { useEffect,useState } from 'react'
 import './Form.css';
-//import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function Form() {
   const [name, setName] = useState('')
@@ -23,7 +23,7 @@ function Form() {
       .then(result => console.log(result))
       .catch(err => console.log(err))
   
-    //navigate('/card' )
+    navigate('/card' )
     location.reload();
     }
 
