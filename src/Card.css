@@ -16,12 +16,12 @@
 }
 
 .left{
-    width: 70%;
+    width: 75%;
     text-transform: capitalize;
 }
 
 .right{
-    width: 30%;
+    width: 25%;
     background-color: beige;
     border-top-right-radius: 10px;
     border-bottom-right-radius:10px;
