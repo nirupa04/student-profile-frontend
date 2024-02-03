@@ -12,9 +12,9 @@ function App() {
     <Router>
       
       <Routes>
-        <Route exact path='/' element={<Home1/>}/>
-        <Route exact path='/card' element={<Card/>} />
-        <Route exact path='/form' element={<Form/>} />
+        <Route  path='/' element={<Home1/>}/>
+        <Route  path='/card' element={<Card/>} />
+        <Route  path='/form' element={<Form/>} />
       </Routes>
     </Router>
 
