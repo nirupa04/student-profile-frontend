@@ -13,8 +13,8 @@ function App() {
       
       <Routes>
         <Route  path='/' element={<Home1/>}/>
-        <Route  path='/card' element={<Card/>} />
-        <Route  path='/form' element={<Form/>} />
+        <Route  path='https://student-profile-frontend.vercel.app/card' element={<Card/>} />
+        <Route  path='https://student-profile-frontend.vercel.app/form' element={<Form/>} />
       </Routes>
     </Router>
 
